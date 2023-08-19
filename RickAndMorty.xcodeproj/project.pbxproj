@@ -25,6 +25,10 @@
 		C69ACB8B2A90F1C900130E11 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACB8A2A90F1C900130E11 /* RMOrigin.swift */; };
 		C69ACB8D2A90F23600130E11 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACB8C2A90F23600130E11 /* RMSingleLocation.swift */; };
 		C69ACB8F2A90F39300130E11 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACB8E2A90F39300130E11 /* RMCharacterGender.swift */; };
+		C69ACB932A9127BF00130E11 /* RMGetAllCharactersResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACB922A9127BF00130E11 /* RMGetAllCharactersResponce.swift */; };
+		C69ACB952A9129CF00130E11 /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACB942A9129CF00130E11 /* CharacterListViewViewModel.swift */; };
+		C69ACB972A912A9300130E11 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACB962A912A9300130E11 /* CharacterListView.swift */; };
+		C69ACB992A91321D00130E11 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACB982A91321D00130E11 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		C69ACB8A2A90F1C900130E11 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
 		C69ACB8C2A90F23600130E11 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
 		C69ACB8E2A90F39300130E11 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
+		C69ACB922A9127BF00130E11 /* RMGetAllCharactersResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponce.swift; sourceTree = "<group>"; };
+		C69ACB942A9129CF00130E11 /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
+		C69ACB962A912A9300130E11 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		C69ACB982A91321D00130E11 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,7 @@
 		C69ACB6D2A90D61500130E11 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C69ACB962A912A9300130E11 /* CharacterListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,12 +111,8 @@
 		C69ACB6E2A90D63200130E11 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C69ACB742A90D73100130E11 /* RMLocation.swift */,
-				C69ACB762A90D76C00130E11 /* RMCharacter.swift */,
-				C69ACB782A90D78A00130E11 /* RMEpisode.swift */,
-				C69ACB8A2A90F1C900130E11 /* RMOrigin.swift */,
-				C69ACB8C2A90F23600130E11 /* RMSingleLocation.swift */,
-				C69ACB8E2A90F39300130E11 /* RMCharacterGender.swift */,
+				C69ACB912A91278600130E11 /* APIResponseTypes */,
+				C69ACB902A91277800130E11 /* DataType */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 		C69ACB702A90D64700130E11 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C69ACB942A9129CF00130E11 /* CharacterListViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 				C69ACB5B2A90D40300130E11 /* SceneDelegate.swift */,
 				C69ACB622A90D40500130E11 /* Assets.xcassets */,
 				C69ACB642A90D40500130E11 /* LaunchScreen.storyboard */,
+				C69ACB982A91321D00130E11 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -165,6 +172,27 @@
 				C69ACB822A90D8DD00130E11 /* RMSettingsViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		C69ACB902A91277800130E11 /* DataType */ = {
+			isa = PBXGroup;
+			children = (
+				C69ACB762A90D76C00130E11 /* RMCharacter.swift */,
+				C69ACB782A90D78A00130E11 /* RMEpisode.swift */,
+				C69ACB742A90D73100130E11 /* RMLocation.swift */,
+				C69ACB8A2A90F1C900130E11 /* RMOrigin.swift */,
+				C69ACB8C2A90F23600130E11 /* RMSingleLocation.swift */,
+				C69ACB8E2A90F39300130E11 /* RMCharacterGender.swift */,
+			);
+			path = DataType;
+			sourceTree = "<group>";
+		};
+		C69ACB912A91278600130E11 /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				C69ACB922A9127BF00130E11 /* RMGetAllCharactersResponce.swift */,
+			);
+			path = APIResponseTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +272,7 @@
 				C69ACB792A90D78A00130E11 /* RMEpisode.swift in Sources */,
 				C69ACB5E2A90D40300130E11 /* RMTabBarController.swift in Sources */,
 				C69ACB812A90D8BC00130E11 /* RMEpisodeViewController.swift in Sources */,
+				C69ACB972A912A9300130E11 /* CharacterListView.swift in Sources */,
 				C69ACB5A2A90D40300130E11 /* AppDelegate.swift in Sources */,
 				C69ACB5C2A90D40300130E11 /* SceneDelegate.swift in Sources */,
 				C69ACB832A90D8DD00130E11 /* RMSettingsViewController.swift in Sources */,
@@ -251,7 +280,10 @@
 				C69ACB752A90D73100130E11 /* RMLocation.swift in Sources */,
 				C69ACB892A90E51500130E11 /* RMEndpoint.swift in Sources */,
 				C69ACB772A90D76C00130E11 /* RMCharacter.swift in Sources */,
+				C69ACB992A91321D00130E11 /* Extensions.swift in Sources */,
+				C69ACB952A9129CF00130E11 /* CharacterListViewViewModel.swift in Sources */,
 				C69ACB872A90E45600130E11 /* RMRequest.swift in Sources */,
+				C69ACB932A9127BF00130E11 /* RMGetAllCharactersResponce.swift in Sources */,
 				C69ACB7C2A90D86F00130E11 /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +430,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,6 +458,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
