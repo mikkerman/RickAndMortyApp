@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RMEpisodeViewController.swift
 //  RickAndMorty
 //
 //  Created by Михаил Герман on 19.08.2023.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class RMEpisodeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+        title = "Episodes"
     }
-
-
 }
-
