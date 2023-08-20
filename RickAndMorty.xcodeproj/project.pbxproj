@@ -35,6 +35,7 @@
 		C69ACBA22A91E8C500130E11 /* RMCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACBA12A91E8C500130E11 /* RMCharacterDetailView.swift */; };
 		C69ACBA42A91E8F300130E11 /* RMCharacterDetailViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACBA32A91E8F300130E11 /* RMCharacterDetailViewViewModel.swift */; };
 		C69ACBA62A91F27600130E11 /* RMFooterLoadingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACBA52A91F27600130E11 /* RMFooterLoadingCollectionReusableView.swift */; };
+		C69ACBA82A921BCC00130E11 /* RMImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69ACBA72A921BCC00130E11 /* RMImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		C69ACBA12A91E8C500130E11 /* RMCharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailView.swift; sourceTree = "<group>"; };
 		C69ACBA32A91E8F300130E11 /* RMCharacterDetailViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterDetailViewViewModel.swift; sourceTree = "<group>"; };
 		C69ACBA52A91F27600130E11 /* RMFooterLoadingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMFooterLoadingCollectionReusableView.swift; sourceTree = "<group>"; };
+		C69ACBA72A921BCC00130E11 /* RMImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		C69ACB712A90D65200130E11 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				C69ACBA72A921BCC00130E11 /* RMImageLoader.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				C69ACB5A2A90D40300130E11 /* AppDelegate.swift in Sources */,
 				C69ACB5C2A90D40300130E11 /* SceneDelegate.swift in Sources */,
 				C69ACB832A90D8DD00130E11 /* RMSettingsViewController.swift in Sources */,
+				C69ACBA82A921BCC00130E11 /* RMImageLoader.swift in Sources */,
 				C69ACB852A90E43800130E11 /* RMService.swift in Sources */,
 				C69ACB752A90D73100130E11 /* RMLocation.swift in Sources */,
 				C69ACB892A90E51500130E11 /* RMEndpoint.swift in Sources */,
